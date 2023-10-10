@@ -9,22 +9,36 @@ body{
         background: #FFFFFF;
     }
     .logo{
-        color: #4D5AE5;
+        color: #434455;
         font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.16;
     }
-    .nav-elements{
+    .logo:focus,
+    .logo:hover{
+        color: #404BBF;
+    }
+   
+    .nav-links{
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
+        color: #2E2F42;
+    }
+    .nav-links:hover,
+    .nav-links:focus{
+        color: #404BBF;
     }
     .contacts{
         color: #434455;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
+    }
+    .contacts:focus,
+    .contacts:hover{
+        color: #404BBF;
     }
 
     /* Section Hero */
@@ -41,6 +55,14 @@ body{
 
         background: #4D5AE5;
         cursor: pointer
+    }
+
+    .btn:focus{
+        background: #404BBF;
+    }
+
+    .btn:hover{
+        background: #404BBF;
     }
 
     .h-2{
