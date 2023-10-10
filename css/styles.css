@@ -1,7 +1,9 @@
 body{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
+    background-color: #FFFFFF ;
+    color: #434455;
     }
 
     /*HEADER*/
@@ -9,32 +11,43 @@ body{
         background: #FFFFFF;
     }
     .logo{
-        color: #434455;
-        font-family: Raleway;
+        color: #4d5ae5;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
     }
     .logo:focus,
     .logo:hover{
         color: #404BBF;
     }
    
+    .spn{
+        color: #2e2f42;
+    }
+
     .nav-links{
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         color: #2E2F42;
+        letter-spacing: 0.02em;
     }
     .nav-links:hover,
     .nav-links:focus{
         color: #404BBF;
+    }
+    .addr{
+        font-style: normal;
     }
     .contacts{
         color: #434455;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
+        letter-spacing: 0.02em;
     }
     .contacts:focus,
     .contacts:hover{
@@ -45,16 +58,23 @@ body{
     .hero{
         background: #2E2F42;
     }
-    .h-1{
+    .head1{
         color: #FFFFFF;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
     }
     .btn{
 
         background: #4D5AE5;
-        cursor: pointer
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
     }
 
     .btn:focus{
@@ -65,11 +85,12 @@ body{
         background: #404BBF;
     }
 
-    .h-2{
+    .head2{
         color: #2E2F42;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.1;
+        letter-spacing: 0.02em;
     }
     .h-3{
         color: #2E2F42;
@@ -81,8 +102,11 @@ body{
         color: #434455;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
     }
-           
+    .sect3{
+        background-color: #F4F4FD;
+    }       
            
     .image-box{
         background:  #FFFFFF;
