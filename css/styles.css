@@ -33,7 +33,7 @@ body{
 
 
     /* +++++++++++++++++++  Header  ++++++++++++++++++++++++++++++++ */
-    .header{
+    .page-header{
         background: #FFFFFF;
     }
     .logo{
@@ -134,7 +134,7 @@ body{
 
     /* +++++++++++   Footer   +++++++++++++++++++++++++++++ */
     
-    .footer{
+    .page-footer{
         background: #2E2F42;
     }
     .footer-description{
