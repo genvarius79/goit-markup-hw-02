@@ -6,7 +6,7 @@ body{
     color: #434455;
     }
     /* +++++++++++++++++  For general use   +++++++++++++++++++++++++*/
-    .head2{
+    .head-two{
         color: #2E2F42;
         font-size: 36px;
         font-weight: 700;
@@ -15,7 +15,7 @@ body{
         text-align: center;
         text-transform: capitalize;
     }
-    .head3{
+    .head-three{
         color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
