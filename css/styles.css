@@ -5,8 +5,34 @@ body{
     background-color: #FFFFFF ;
     color: #434455;
     }
+    /* +++++++++++++++++  For general use   +++++++++++++++++++++++++*/
+    .head2{
+        color: #2E2F42;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .head3{
+        color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+    .descripsion{
+        color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    /* ==================  End For general use  =====================*/
 
-    /*HEADER*/
+
+
+    /* +++++++++++++++++++  Header  ++++++++++++++++++++++++++++++++ */
     .header{
         background: #FFFFFF;
     }
@@ -24,7 +50,7 @@ body{
         color: #404BBF;
     }
    
-    .spn{
+    .logo-header-spn{
         color: #2e2f42;
     }
 
@@ -53,12 +79,14 @@ body{
     .contacts:hover{
         color: #404BBF;
     }
+    /* ==============   End Header  ============================= */
 
-    /* Section Hero */
+
+    /* +++++++++++++++++++  Hero  ++++++++++++++++++++++++++++++++ */
     .hero{
         background: #2E2F42;
     }
-    .head1{
+    .hero-title{
         color: #FFFFFF;
         font-size: 56px;
         font-weight: 700;
@@ -84,33 +112,27 @@ body{
     .btn:hover{
         background: #404BBF;
     }
+    /* ==============   End Hero  ============================= */
 
-    .head2{
-        color: #2E2F42;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.1;
-        letter-spacing: 0.02em;
-    }
-    .h-3{
-        color: #2E2F42;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-    }
-    .descripsion{
-        color: #434455;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    }
-    .sect3{
+
+    /* ++++++++++++++   About Us  ++++++++++++++++++++++++++++++++ */
+    .about-as{
         background-color: #F4F4FD;
     }       
-           
+    /* =======   End About Us   ================================== */       
+
+
+    /* +++++++++++++++   Our Team   ++++++++++++++++++++++++++++++ */
+
+    .our-team{
+        background-color: #F4F4FD;
+    }
     .image-box{
         background:  #FFFFFF;
     }
+    /* ==========  End Our Team  =============================== */
+
+    /* +++++++++++   Footer   +++++++++++++++++++++++++++++ */
     
     .footer{
         background: #2E2F42;
@@ -120,4 +142,9 @@ body{
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
+        letter-spacing: 0.02em;
     }
+    .logo-footer-spn{
+        color: #f4f4fd;
+    }
+    /* ============   End Footer   =============================== */
